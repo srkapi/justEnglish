@@ -8,7 +8,7 @@ $usuario = $_POST['user'];
 $pass = $_POST['pass'];
  
 if(empty($usuario) || empty($pass)){
-  header("Location: index.html");
+  header("Location: login.php");
   echo  "no contiene los dos datos";
   exit();
 }
